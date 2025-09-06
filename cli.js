@@ -14,5 +14,5 @@ switch (command) {
         vkl.merge(args[0]);
         break;
     default:
-        console.log('Unbekannter Befehl.');
+        console.log(`Unbekannter Befehl: ${command}. Bitte überprüfen Sie die Dokumentation für verfügbare Befehle.`);
 }
